@@ -1,0 +1,13 @@
+h1 {
+    color: brown;
+}
+
+.botao1.btn-primary {
+    border-color: brown;
+    background-color: brown;
+}
+
+.botao1.btn-primary:hover {
+    border-color: #972828;
+    background-color: #972828;
+}
