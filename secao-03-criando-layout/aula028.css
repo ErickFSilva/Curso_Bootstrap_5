@@ -1,0 +1,53 @@
+/* XS */
+h1 {
+    color: brown;
+}
+
+/* SM */
+@media (min-width: 576px) {
+    
+    h1 {
+        color: blue;
+    }
+
+}
+
+/* MD */
+@media (min-width: 768px) {
+    
+    h1 {
+        color: seagreen;
+    }
+
+}
+
+/* LG */
+@media (min-width: 992px) {
+    
+    h1 {
+        color: black;
+    }
+
+}
+
+/* XL */
+@media (min-width: 1200px) {
+    
+    h1 {
+        color: chocolate;
+    }
+
+}
+
+/* XXL */
+@media (min-width: 1400px) {
+    
+    h1 {
+        color: darkcyan;
+    }
+
+}
+
+.btn-primary {
+    background-color: sienna;
+}

@@ -1,0 +1,14 @@
+/* Alinhamento vertical */
+#vertical {
+    height: 200px;
+    border: 1px solid darkred;
+}
+
+#vertical .row {
+    height: 100%;
+    border: 1px dotted darkcyan;
+}
+
+#vertical .col-4 {
+    border: 1px dashed darkviolet;
+}

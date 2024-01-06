@@ -1,0 +1,16 @@
+.container {
+    padding: 5px;
+}
+
+.container .row .col {
+    margin: 5px;
+    line-height: 50px;
+    border: 2px dashed #fff;
+    text-align: center;
+    color: #efefef;
+    background-color: darkgoldenrod;
+}
+
+.container .row .impar {
+    background-color: blueviolet;
+}

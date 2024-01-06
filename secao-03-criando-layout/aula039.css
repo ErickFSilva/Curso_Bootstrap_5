@@ -1,0 +1,15 @@
+/* Alinhamento vertical */
+.vertical {
+    height: 400px;
+    border: 1px solid blue;
+}
+
+.vertical .row {
+    padding: 10px;
+    height: 100%;
+    border: 1px solid green;
+}
+
+.vertical .caixa {
+    border: 1px dashed darkviolet;
+}
