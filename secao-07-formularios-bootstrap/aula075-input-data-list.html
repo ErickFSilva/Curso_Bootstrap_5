@@ -27,7 +27,6 @@
 
                     <h1 class="display-6 text-secondary mb-4">Crie seu Post</h1>
                     
-                    <!-- Form control -->
                     <div class="mb-4">
                         <label for="title" class="form-label">Título do Post:</label>
                         <input type="text" class="form-control" id="title" placeholder="Digite seu título">
@@ -35,8 +34,24 @@
                     </div>
 
                     <div class="mb-4">
+                        <label for="cidades" class="form-label">Selecione uma cidade</label>
+                        <input class="form-control" list="datalistOptions" id="cidades" placeholder="Busque sua cidade...">
+                        <datalist id="datalistOptions">
+                            <option value="São Paulo">
+                            <option value="Rio de Janeiro">
+                            <option value="Florianópolis">
+                            <option value="Garanhuns">
+                            <option value="Porto Alegre">
+                        </datalist>
+                    </div>
+
+                    <div class="mb-4">
                         <label for="content" class="form-label">Conteúdo:</label>
-                        <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Digite o conteúdo do post..."></textarea>
+                        <textarea class="form-control" name="" id="content" cols="30" rows="10" placeholder="Digite o conteúdo do post..."></textarea>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="button" class="btn btn-lg btn-primary" value="Enviar">
                     </div>
 
                 </form>

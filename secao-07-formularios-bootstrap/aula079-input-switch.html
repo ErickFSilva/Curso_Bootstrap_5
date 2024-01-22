@@ -27,16 +27,46 @@
 
                     <h1 class="display-6 text-secondary mb-4">Crie seu Post</h1>
                     
-                    <!-- Form control -->
                     <div class="mb-4">
                         <label for="title" class="form-label">Título do Post:</label>
                         <input type="text" class="form-control" id="title" placeholder="Digite seu título">
                         <div class="form-text">Até 50 caracteres</div>
                     </div>
 
+                    <!-- Checkbox -->
+                    <div class="mb-4">
+                        <label class="form-label">Marque as opções:</label>
+                        
+                        <div class="form-check">
+                            <input type="checkbox" name="atp" value="atp" id="privacidade" class="form-check-input">
+                            <label for="privacidade" class="form-check-label">Aceitar termos de privacidade</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" name="rep" value="rep" id="emails" class="form-check-input">
+                            <label for="emails" class="form-check-label">Receber os e-mails de propagandas</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="checkbox" name="evnpd" value="evnpd" id="disabled" class="form-check-input" checked disabled>
+                            <label for="disabled" class="form-check-label">Este você não poderá desmarcar</label>
+                        </div>
+                    </div>
+
+                    <!-- Radio -->
+                    <div class="mb-4">
+                        
+                    </div>
+                    <!--  -->
+
                     <div class="mb-4">
                         <label for="content" class="form-label">Conteúdo:</label>
-                        <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Digite o conteúdo do post..."></textarea>
+                        <textarea class="form-control" id="content" cols="30" rows="10" placeholder="Digite o conteúdo do post..."></textarea>
+                        <div class="form-text">Até 500 caracteres</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="button" class="btn btn-lg btn-primary" value="Enviar">
                     </div>
 
                 </form>

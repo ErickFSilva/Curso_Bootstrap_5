@@ -27,7 +27,6 @@
 
                     <h1 class="display-6 text-secondary mb-4">Crie seu Post</h1>
                     
-                    <!-- Form control -->
                     <div class="mb-4">
                         <label for="title" class="form-label">Título do Post:</label>
                         <input type="text" class="form-control" id="title" placeholder="Digite seu título">
@@ -35,8 +34,17 @@
                     </div>
 
                     <div class="mb-4">
+                        <label for="cor" class="form-label">Selecione uma cor</label>
+                        <input type="color" id="cor" class="form-control form-control-color">
+                    </div>
+
+                    <div class="mb-4">
                         <label for="content" class="form-label">Conteúdo:</label>
-                        <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Digite o conteúdo do post..."></textarea>
+                        <textarea class="form-control" id="content" cols="30" rows="10" placeholder="Digite o conteúdo do post..."></textarea>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="button" class="btn btn-lg btn-primary" value="Enviar">
                     </div>
 
                 </form>
