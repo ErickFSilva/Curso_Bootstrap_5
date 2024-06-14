@@ -1,0 +1,40 @@
+/* XS - Extra small */
+h1 {
+    padding: 20px;
+    color: white;
+    background-color: darkslategray;
+}
+
+.btn-primary {
+    background-color: gray;
+}
+
+
+/* SM - Small */
+@media (min-width: 576px) {
+    h1 { background-color: green; }
+}
+
+
+/* MD - Medium */
+@media (min-width: 768px) {
+    h1 { background-color: darkgoldenrod; }
+}
+
+
+/* LG - Large */
+@media (min-width: 992px) {
+    h1 { background-color: blue; }
+}
+
+
+/* XL - Extra large */
+@media (min-width: 1200px) {
+    h1 { background-color: purple; }
+}
+
+
+/* XXL - Extra extra large */
+@media (min-width: 1400px) {
+    h1 { background-color: black }
+}
