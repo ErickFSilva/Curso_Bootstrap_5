@@ -1,0 +1,32 @@
+.row {
+    padding: 10px;
+    border: 1px dotted rosybrown;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+/*  */
+@media(max-width: 500px) {
+
+    .rodape .row {
+        flex-direction: column;
+    }
+    
+    .rodape .coluna2 {
+        order: 1;
+        background-color: #ffe4c4;
+    }
+
+    .rodape .coluna4 {
+        order: 2;
+        background-color: #dbc4ff;
+    }
+
+    .rodape .coluna1, .rodape .coluna3 {
+        order: 3;
+    }
+
+}

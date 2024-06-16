@@ -1,0 +1,27 @@
+.container, .container-fluid {
+    padding: 5px;
+    border: 2px dashed darkviolet;
+}
+
+.row {
+    padding: 5px;
+    border: 2px solid teal;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    padding: 5px;
+    border: 2px dotted darkred;
+}
+
+/*  */
+.vertical {
+    height: 600px;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.vertical .row .col-3 {
+    height: 50px;
+}
