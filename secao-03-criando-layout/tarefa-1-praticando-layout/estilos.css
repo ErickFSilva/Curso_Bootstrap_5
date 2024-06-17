@@ -1,0 +1,11 @@
+.row div {
+    border: 1px solid #dddddd;
+}
+
+.row div:nth-child(odd) {
+    background-color: beige;
+}
+
+.row div:nth-child(even) {
+    background-color: lightblue;
+}
