@@ -1,0 +1,10 @@
+.row div {
+    border: 1px dotted gray;
+}
+.bi {
+    font-size: 60px;
+}
+
+.bi-bootstrap-fill {
+    color: rgb(107, 27, 182);
+}
