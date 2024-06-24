@@ -67,3 +67,20 @@ a, i {
 #navbar a:hover {
     color: var(--laranjado-01);
 }
+
+
+/* MAIN IMAGE */
+.main-image {
+    height: 400px;
+    background-image: url(../img/g_1.jpg);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info {
+    background-color: var(--branco);
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
